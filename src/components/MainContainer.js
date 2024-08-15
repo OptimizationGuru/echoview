@@ -1,13 +1,13 @@
-import React from 'react'
-import ButtonList from './ButtonList'
-import VideoContainer from './VideoContainer.js'
+import React from 'react';
+import ButtonList from './ButtonList';
+import VideoContainer from './VideoContainer.js';
 const MainContainer = () => {
   return (
-    <div className='col-span-11'>
-    <ButtonList/>
-    <VideoContainer/>
+    <div className="h-full overflow-y-auto ">
+      <ButtonList />
+      <VideoContainer />
     </div>
-  )
-}
+  );
+};
 
-export default MainContainer
+export default MainContainer;

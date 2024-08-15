@@ -1,12 +1,16 @@
 import Header from './components/Header';
 import Body from './components/Body';
+import store from './utils/store';
+import { Provider } from 'react-redux';
 
 function App() {
   return (
-    <div className="m-0 p-0">
-      <Header />
-      <Body />
-      {/* 
+    <Provider store={store}>
+      <div className="m-0 p-0">
+        <Header />
+
+        <Body />
+        {/* 
         Hii
         Header
         Body
@@ -21,7 +25,8 @@ function App() {
         Sugesstions
         Sugesstions
        */}
-    </div>
+      </div>
+    </Provider>
   );
 }
 
