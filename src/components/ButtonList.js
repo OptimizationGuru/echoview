@@ -1,10 +1,10 @@
-import React from 'react'
-import Button from './Button'
+import React from 'react';
+import Button from './Button';
 
-const ButtonList = () => {
+const ButtonList = (buttonList) => {
   return (
-    <div><Button/></div>
+    <div className='overflow-x-auto my-2 hide-scrollbar'><Button/></div>
   )
 }
 
-export default ButtonList
+export default ButtonList;

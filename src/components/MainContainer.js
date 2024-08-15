@@ -4,8 +4,12 @@ import VideoContainer from './VideoContainer.js';
 const MainContainer = () => {
   return (
     <div className="h-full overflow-y-auto ">
-      <ButtonList />
-      <VideoContainer />
+      <div>
+        <ButtonList />
+      </div>
+      <div className="h-full overflow-y-auto ">
+        <VideoContainer />
+      </div>
     </div>
   );
 };
