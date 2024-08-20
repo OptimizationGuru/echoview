@@ -2,12 +2,9 @@ import React from 'react';
 import Description from './Desciption';
 
 const watchDescription = (video) => {
-  // console.log(video?.video?.snippet, 'video');
-
   const { snippet, statistics } = video.video;
 
   const { description, tags } = snippet;
-  // console.log(statistics, 'video');
 
   function convertTimestampToDate(timestamp) {
     const date = new Date(timestamp);
@@ -31,8 +28,6 @@ const watchDescription = (video) => {
       <Description text={description} />
     </div>
   );
-
-  // return <div>watchDescription</div>;
 };
 
 export default watchDescription;

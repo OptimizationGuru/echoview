@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
   IconMusic,
   IconDownload,
@@ -43,7 +44,7 @@ const SideBar = () => {
       <span>{text}</span>
     </li>
   );
-  
+
   const SectionHeader = ({ title }) => (
     <div className="py-2 px-3 text-base font-medium flex items-center hover:bg-gray-200 rounded-md cursor-pointer">
       <span className="mr-2">{title}</span>
@@ -51,13 +52,15 @@ const SideBar = () => {
     </div>
   );
 
-  if (!isMenuOpen) return null;
+  if (!isMenuOpen) return <></>;
 
   return (
     <aside className="h-full overflow-y-auto bg-white shadow-lg">
       <nav className="p-3">
         <ul>
-          <SidebarItem icon={<IconHomeFilled />} text="Home" />
+          <Link to="/">
+            <SidebarItem icon={<IconHomeFilled />} text="Home" />
+          </Link>
           <SidebarItem icon={<IconBrandYoutube />} text="Shorts" />
           <SidebarItem icon={<IconBrandYoutubeKids />} text="Subscriptions" />
           <SidebarItem icon={<IconMusic />} text="YouTube Music" />
@@ -141,7 +144,5 @@ const SideBar = () => {
     </aside>
   );
 };
-
-
 
 export default SideBar;

@@ -10,8 +10,6 @@ const Watch = () => {
   const [bannerUrl, setBannerUrl] = useState('');
   const [infoVideo, setinfoVideo] = useState();
 
-  // console.log('video info', videoInfo);
-
   const { snippet, statistics } = videoInfo;
 
   const { title, channelTitle, channelId } = snippet;
@@ -73,11 +71,17 @@ const Watch = () => {
 
         <div className="flex ml-[260px]  h-12">
           <div className="ml-1 my-1 px-2 py-2 flex border border-gray-300 rounded-l-full hover:bg-gray-200">
-            <FontAwesomeIcon icon=" fa-thumbs-up" className="w-8 h-6 cursor-pointer" />
+            <FontAwesomeIcon
+              icon=" fa-thumbs-up"
+              className="w-8 h-6 cursor-pointer"
+            />
             <p className="mx-1">{parseInt(statistics.likeCount / 1000)}K</p>
           </div>
           <div className=" my-1 px-3 py-2 flex border border-gray-300 rounded-r-full hover:bg-gray-200">
-            <FontAwesomeIcon icon=" fa-thumbs-down" className="w-8 h-6 cursor-pointer" />
+            <FontAwesomeIcon
+              icon=" fa-thumbs-down"
+              className="w-8 h-6 cursor-pointer"
+            />
           </div>
           <div>
             <div className=" my-1 mx-2 px-3 py-2 flex border cursor-pointer border-gray-300 rounded-3xl hover:bg-gray-200">

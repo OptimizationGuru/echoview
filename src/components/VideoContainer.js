@@ -19,10 +19,10 @@ const VideoContainer = () => {
     fetchYoutubeVideos();
   }, []);
 
-  if (youtubeItem.length === 0) return <p>Empty</p>;
+  if (youtubeItem.length === 0) return;
   else {
     return (
-      <div className="flex flex-wrap items-center mt-2">  
+      <div className="flex flex-wrap items-center mt-2">
         {youtubeItem.map((video) => (
           <VideoCard info={video} key={video.id} />
         ))}
