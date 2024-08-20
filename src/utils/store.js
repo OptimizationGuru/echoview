@@ -1,10 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
-import  appSlice from '../utils/appSlice';
+import appSlice from '../utils/appSlice';
+import watchSlice from '../utils/watchPageSlice';
+import searchSuggestionSlice from '../utils/searchSuggestionSlice';
 
 const store = configureStore({
   reducer: {
     app: appSlice,
-    // Add other slices here
+    watch: watchSlice,
+    searchSuggestions: searchSuggestionSlice,
   },
 });
 

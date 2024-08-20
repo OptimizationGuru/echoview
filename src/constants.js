@@ -11,4 +11,8 @@ export const subcription_img_url2 =
 export const youtube_api_key = 'AIzaSyCfMXD1PjqErZ5DwRA44NcTAKU8M5jNoT0';
 
 export const most_popular_videos_url =
-  'https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key=';
+  'https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=';
+
+export const watchVideoUrl = 'https://www.youtube.com/watch?v=';
+
+export const yutube_search_autocomplete_api = `http://suggestqueries.google.com/complete/search?client=firefox&ds=yt`;
