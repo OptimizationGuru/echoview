@@ -9,7 +9,7 @@ import {
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleMenu } from '../utils/appSlice';
+import { toggleMenu, showMenu, closeMenu } from '../utils/appSlice';
 import { addSuggestion } from '../utils/searchSuggestionSlice';
 
 const Header = () => {
@@ -17,7 +17,7 @@ const Header = () => {
   const suggestions = useSelector(
     (store) => store.searchSuggestions.suggestions
   );
-
+  const isSideMenuOpen = useSelector((store) => store.app.isMenuOpen);
   const [searchQuery, setSearchQuery] = useState('');
   const [searchSuggestions, setSearchSuggestions] = useState([]);
   const [flag, setFlag] = useState(false);
@@ -41,7 +41,12 @@ const Header = () => {
   };
 
   const toggleSidebar = () => {
-    dispatch(toggleMenu());
+    if (isSideMenuOpen) dispatch(closeMenu());
+    else dispatch(showMenu());
+  };
+
+  const openSidebar = () => {
+    dispatch(showMenu());
   };
 
   useEffect(() => {
@@ -69,6 +74,7 @@ const Header = () => {
             src={youtube_logo_url}
             alt="YouTube Logo"
             className="h-12 ml-4 cursor-pointer"
+            onClick={openSidebar}
           />
         </Link>
       </div>
