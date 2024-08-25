@@ -19,3 +19,360 @@ export const yutube_search_autocomplete_api = `http://suggestqueries.google.com/
 
 export const no_banner_url =
   'https://image.similarpng.com/very-thumbnail/2020/05/YouTube-logo-in-circle-PNG.png';
+
+export const commentsData = [
+  {
+    name: 'Hari',
+    text: 'Lorem ipsumet dolor sit amet  consectetur adip   occurence   velit ',
+    replies: [
+      {
+        name: 'Deepak',
+        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+        replies: [
+          {
+            name: 'Deepak',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+          {
+            name: 'Rahul',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+        ],
+      },
+      {
+        name: 'Rahul',
+        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+        replies: [
+          {
+            name: 'Deepak',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+          {
+            name: 'Rahul',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: 'Hari',
+    text: 'Lorem ipsumet dolor sit amet  consectetur adip   occurence   velit ',
+    replies: [
+      {
+        name: 'Deepak',
+        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+        replies: [
+          {
+            name: 'Deepak',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+          {
+            name: 'Rahul',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+        ],
+      },
+      {
+        name: 'Rahul',
+        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+        replies: [
+          {
+            name: 'Deepak',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+          {
+            name: 'Rahul',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: 'Hari',
+    text: 'Lorem ipsumet dolor sit amet  consectetur adip   occurence   velit ',
+    replies: [
+      {
+        name: 'Deepak',
+        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+      },
+      {
+        name: 'Rahul',
+        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+        replies: [
+          {
+            name: 'Deepak',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+          {
+            name: 'Rahul',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+            replies: [
+              {
+                name: 'Deepak',
+                text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+              },
+              {
+                name: 'Rahul',
+                text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: 'Hari',
+    text: 'Lorem ipsumet dolor sit amet  consectetur adip   occurence   velit ',
+    replies: [
+      {
+        name: 'Deepak',
+        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+        replies: [
+          {
+            name: 'Deepak',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+          {
+            name: 'Rahul',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+            replies: [
+              {
+                name: 'Deepak',
+                text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+                replies: [
+                  {
+                    name: 'Deepak',
+                    text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+                  },
+                  {
+                    name: 'Rahul',
+                    text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+                    replies: [
+                      {
+                        name: 'Deepak',
+                        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+                      },
+                      {
+                        name: 'Rahul',
+                        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                name: 'Rahul',
+                text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Rahul',
+        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+      },
+    ],
+  },
+  {
+    name: 'Hari',
+    text: 'Lorem ipsumet dolor sit amet  consectetur adip   occurence   velit ',
+    replies: [
+      {
+        name: 'Deepak',
+        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+        replies: [
+          {
+            name: 'Deepak',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+          {
+            name: 'Rahul',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+        ],
+      },
+      {
+        name: 'Rahul',
+        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+      },
+    ],
+  },
+  {
+    name: 'Hari',
+    text: 'Lorem ipsumet dolor sit amet  consectetur adip   occurence   velit ',
+    replies: [
+      {
+        name: 'Deepak',
+        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+        replies: [
+          {
+            name: 'Subramanian',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+            replies: [
+              {
+                name: 'Raghu',
+                text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+                replies: [
+                  {
+                    name: 'Deepak',
+                    text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+                  },
+                  {
+                    name: 'Rahul',
+                    text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            name: 'Raghu',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+            replies: [],
+          },
+        ],
+      },
+      {
+        name: 'Rahul',
+        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+        replies: [
+          {
+            name: 'Deepak',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+          {
+            name: 'Rahul',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: 'Hari',
+    text: 'Lorem ipsumet dolor sit amet  consectetur adip   occurence   velit ',
+    replies: [
+      {
+        name: 'Deepak',
+        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+        replies: [
+          {
+            name: 'Deepak',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+          {
+            name: 'Rahul',
+            text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+          },
+        ],
+      },
+      {
+        name: 'Rahul',
+        text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+        replies: [],
+      },
+    ],
+  },
+  // {
+  //   name: 'Hari',
+  //   text: 'Lorem ipsumet dolor sit amet  consectetur adip   occurence   velit ',
+  //   replies: [
+  //     {
+  //       name: 'Deepak',
+  //       text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+  //     },
+  //     {
+  //       name: 'Rahul',
+  //       text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: 'Hari',
+  //   text: 'Lorem ipsumet dolor sit amet  consectetur adip   occurence   velit ',
+  //   replies: [
+  //     {
+  //       name: 'Deepak',
+  //       text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+  //     },
+  //     {
+  //       name: 'Rahul',
+  //       text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: 'Hari',
+  //   text: 'Lorem ipsumet dolor sit amet  consectetur adip   occurence   velit ',
+  //   replies: [
+  //     {
+  //       name: 'Deepak',
+  //       text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+  //     },
+  //     {
+  //       name: 'Rahul',
+  //       text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: 'Hari',
+  //   text: 'Lorem ipsumet dolor sit amet  consectetur adip   occurence   velit ',
+  //   replies: [
+  //     {
+  //       name: 'Deepak',
+  //       text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+  //     },
+  //     {
+  //       name: 'Rahul',
+  //       text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: 'Hari',
+  //   text: 'Lorem ipsumet dolor sit amet  consectetur adip   occurence   velit ',
+  //   replies: [
+  //     {
+  //       name: 'Deepak',
+  //       text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+  //     },
+  //     {
+  //       name: 'Rahul',
+  //       text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: 'Hari',
+  //   text: 'Lorem ipsumet dolor sit amet  consectetur adip   occurence   velit ',
+  //   replies: [
+  //     {
+  //       name: 'Deepak',
+  //       text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+  //     },
+  //     {
+  //       name: 'Rahul',
+  //       text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: 'Hari',
+  //   text: 'Lorem ipsumet dolor sit amet  consectetur adip   occurence   velit ',
+  //   replies: [
+  //     {
+  //       name: 'Deepak',
+  //       text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+  //     },
+  //     {
+  //       name: 'Rahul',
+  //       text: 'Lorem ipsum dolor sit amet  consectetur adip   occurence   velit ',
+  //     },
+  //   ],
+  // },
+];

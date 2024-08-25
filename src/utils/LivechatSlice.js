@@ -17,7 +17,8 @@ export const LiveChatSlice = createSlice({
       state.comments = [...state.comments, newObj];
 
       if (state.comments.length > 100) {
-        state.comments = state.comments.slice(-100);
+        const latestComments = state.comments.slice(-100);
+        state.comments = latestComments;
       }
     },
 

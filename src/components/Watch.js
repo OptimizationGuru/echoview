@@ -12,6 +12,7 @@ import Livechat from './Livechat';
 import { closeMenu } from '../utils/appSlice';
 import Suggestion from './Suggestion';
 import { toggleComments } from '../utils/LivechatSlice';
+import CommentsContainer from './CommentsContainer';
 
 const Watch = () => {
   const { videoId, videoInfo } = useSelector((store) => store.watch);
@@ -82,7 +83,7 @@ const Watch = () => {
 
   return (
     <div className="flex">
-      <div>
+      <div className="flex flex-col">
         <div className="rounded-xl ml-4 mt-4">
           <iframe
             ref={iframeRef}
@@ -162,9 +163,12 @@ const Watch = () => {
         </div>
 
         <div>{infoVideo ? <WatchDescription video={infoVideo} /> : ''}</div>
+        <div className='-mt-2'>
+          <CommentsContainer />
+        </div>
       </div>
 
-      <div className="w-full mt-2">
+      <div className="w-full mt-2 ml-6">
         <div className="shadow-lg flex p-2">
           <button
             className={`mx-2 px-4 py-2 text-lg font-medium rounded-md hover:bg-gray-200 hover:font-bold ${
@@ -191,9 +195,6 @@ const Watch = () => {
             <Suggestion />
           </div>
         )}
-        {/* <div className="overflow-y-auto">
-          <Suggestion />
-        </div> */}
       </div>
     </div>
   );
