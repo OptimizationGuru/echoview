@@ -108,14 +108,14 @@ const Watch = () => {
               alt="banner"
               className="rounded-full h-10 w-10 ml-4 my-2 cursor-pointer"
             />
-            <div className="text-lg font-semibold mx-4 my-2 cursor-pointer">
-              {channelTitle}
-              <p className="text-center mt-1 text-gray-400 font-normal text-sm ">
-                1.42M subscribers
-              </p>
+            <div className="mx-2 my-2 cursor-pointer">
+              <p className="text-lg font-semibold">{channelTitle}</p>
+              <span className="text-left mx-2 mt-1 text-black font-normal text-sm ">
+                4.3M subscribers
+              </span>
             </div>
             <div className=" h-8 w-28 mx-4 my-2  border border-yellow-800  bg-black cursor-pointer rounded-3xl">
-              <p className="text-center mt-1 text-white font-medium px-2 ">
+              <p className="text-center mt-1 mx-2 text-white font-medium ">
                 Subscribe
               </p>
             </div>
@@ -163,7 +163,7 @@ const Watch = () => {
         </div>
 
         <div>{infoVideo ? <WatchDescription video={infoVideo} /> : ''}</div>
-        <div className='-mt-2'>
+        <div className="-mt-2">
           <CommentsContainer />
         </div>
       </div>
