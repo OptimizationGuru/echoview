@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
-  youtube_logo_url,
+  youtube_logo_url as NexStream_logo_url,
   user_logo_url,
   yutube_search_autocomplete_api,
   youtube_api_key,
@@ -9,7 +9,7 @@ import {
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleMenu, showMenu, closeMenu } from '../utils/appSlice';
+import { showMenu, closeMenu } from '../utils/appSlice';
 import { addSuggestion } from '../utils/searchSuggestionSlice';
 
 const Header = () => {
@@ -71,9 +71,9 @@ const Header = () => {
         />
         <Link to="/">
           <img
-            src={youtube_logo_url}
+            src={NexStream_logo_url}
             alt="YouTube Logo"
-            className="h-12 ml-4 cursor-pointer"
+            className="h-7 ml-4 cursor-pointer rounded-md"
             onClick={openSidebar}
           />
         </Link>
@@ -94,7 +94,7 @@ const Header = () => {
         <img
           src={user_logo_url}
           alt="User Logo"
-          className="h-10 w-10 rounded-full cursor-pointer"
+          className="h-8 w-8 rounded-full cursor-pointer"
         />
       </div>
     </header>

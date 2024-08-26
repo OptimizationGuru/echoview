@@ -6,8 +6,8 @@ import {
   IconShoppingBag,
   IconFlame,
   IconBrandYoutube,
-  IconThumbUpFilled,
   IconClock,
+  IconHeart,
   IconBrandYoutubeKids,
   IconDeviceTv,
   IconHomeFilled,
@@ -63,7 +63,7 @@ const SideBar = () => {
           </Link>
           <SidebarItem icon={<IconBrandYoutube />} text="Shorts" />
           <SidebarItem icon={<IconBrandYoutubeKids />} text="Subscriptions" />
-          <SidebarItem icon={<IconMusic />} text="YouTube Music" />
+          <SidebarItem icon={<IconMusic />} text="NexStream Music" />
         </ul>
       </nav>
 
@@ -72,12 +72,12 @@ const SideBar = () => {
       <nav className="p-3">
         <SectionHeader title="You" />
         <ul>
-          <SidebarItem icon={<IconUserSquare />} text="Your Channel" />
+          <SidebarItem icon={<IconUserSquare />} text="Your Collections" />
           <SidebarItem icon={<IconHistory />} text="History" />
           <SidebarItem icon={<IconPlaylist />} text="Playlists" />
           <SidebarItem icon={<IconDeviceTv />} text="Your Videos" />
           <SidebarItem icon={<IconClock />} text="Watch Later" />
-          <SidebarItem icon={<IconThumbUpFilled />} text="Liked Videos" />
+          <SidebarItem icon={<IconHeart />} text="Favourite Videos" />
           <SidebarItem icon={<IconDownload />} text="Downloads" />
         </ul>
       </nav>

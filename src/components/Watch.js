@@ -115,7 +115,7 @@ const Watch = () => {
               </p>
             </div>
             <div className=" h-8 w-28 mx-4 my-2  border border-yellow-800  bg-black cursor-pointer rounded-3xl">
-              <p className="text-center mt-1 text-white font-medium ">
+              <p className="text-center mt-1 text-white font-medium px-2 ">
                 Subscribe
               </p>
             </div>
